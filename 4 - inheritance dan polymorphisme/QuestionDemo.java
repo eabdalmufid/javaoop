@@ -25,12 +25,8 @@ public class QuestionDemo {
         //second.setAnswer("28");
 
         presentQuestion(first);
-        //System.out.println("");
+        System.out.println("");
         presentQuestion(second);
-        //String response = in.nextLine();
-        //System.out.println(first.checkAnswer(response));
-        //System.out.println(second.checkAnswer(response));
-        //in.close();
     }
 
     public static void presentQuestion(ChoiceQuestion q) {
