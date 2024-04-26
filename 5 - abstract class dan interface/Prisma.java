@@ -29,13 +29,12 @@ public class Prisma implements BangunRuang {
         return alas * tinggiAlas * tinggiPrisma;
     }
 
-    // Metode untuk menghitung luas alas segi-n
     private double getLuasAlasSegiN(double sisi, int jumlahSisi) {
         return switch (jumlahSisi) {
             case 3 -> Math.sqrt(3) * sisi * sisi / 4;
             case 4 -> sisi * sisi;
             default -> 0;
-        }; // Rumus untuk segi-n lebih kompleks, perlu implementasi tambahan
+        };
     }
 
     // Getter dan setter untuk atribut
